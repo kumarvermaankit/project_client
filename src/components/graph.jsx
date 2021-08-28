@@ -16,7 +16,7 @@ function renderLegend(){
       <li className="legend_para" style={{color:"#8884d8"}}>Forecasted value</li>
       <li className="legend_para" style={{color:"#dddddd"}} >Max Band</li>
       <li className="legend_para" style={{color:"#dddddd"}} >Min Band</li>
-      <li className="legend_para" style={{color:"red"}} >Anamaly</li>
+      <li className="legend_para" style={{color:"red"}} >Anomaly</li>
     </ul>
   )
 }

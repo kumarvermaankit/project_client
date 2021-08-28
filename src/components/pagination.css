@@ -1,0 +1,26 @@
+.pagination {
+  margin-left: 470px;
+  margin-top: 70px;
+  transform: scale(1.4);
+}
+.pagination_buttons {
+  background-color: transparent;
+  min-width: 44px;
+  padding: 5px;
+  outline: none;
+  border: 0.5px solid #b9b7b7;
+  font-size: 10px;
+}
+
+.pagination_buttons:hover {
+  background-color: #e0e0e0;
+}
+
+.active {
+  background-color: #0095ff;
+}
+
+.navigationbtn {
+  position: relative;
+  bottom: 2px;
+}

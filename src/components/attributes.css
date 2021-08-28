@@ -1,0 +1,23 @@
+.attribute_container {
+  height: 350px;
+  width: 300px;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+
+.dimension {
+  border: 2px solid black;
+  width: 230px;
+  display: block;
+  padding-left: 10px;
+}
+
+.dimension_container p {
+  position: relative;
+  bottom: 13px;
+}
+
+.dimension:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}

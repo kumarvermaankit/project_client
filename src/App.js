@@ -29,7 +29,7 @@ function App() {
   return (
     <div>
     <div style={{display:"flex"}}>
-    <Graph data={data} />
+    <Graph data={data} graphID={graphID}/>
 <Attributes measure={currentmeasure} dimensions={currentdimensions}/>
     </div>
 

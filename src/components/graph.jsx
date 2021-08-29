@@ -17,6 +17,7 @@ function renderLegend(){
       <li className="legend_para" style={{color:"#dddddd"}} >Max Band</li>
       <li className="legend_para" style={{color:"#dddddd"}} >Min Band</li>
       <li className="legend_para" style={{color:"red"}} >Anomaly</li>
+      <li className="legend_para" style={{color:"black"}} >{props.graphID}</li>
     </ul>
   )
 }
